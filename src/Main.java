@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Cual es tu nombre?");
+        String nombre = input.nextLine();
+Funcioness.mostrarSaludo();
+Funcioness.saludopersonalizado(nombre);
+        System.out.println("Cual es la base de tu rectangulo");
+        Double base = input.nextDouble();
+        System.out.println("Ahora la altura de tu rectangulo");
+        Double altura = input.nextDouble();
+Funcioness.calcularRectang(base, altura);
+
+    }
+}
