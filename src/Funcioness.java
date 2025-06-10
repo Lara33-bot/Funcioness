@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Funcioness {
 public static void mostrarSaludo(){
@@ -10,5 +9,10 @@ public static void saludopersonalizado (String nombre){
 public static void calcularRectang (Double base, Double altura){
     double Rectangulo = base * altura;
     System.out.println("Tu area es " + Rectangulo);
+}
+public static void  textoAMayus(String texto){
+String mayus = texto.toUpperCase();
+System.out.println(mayus);
+
 }
 }
