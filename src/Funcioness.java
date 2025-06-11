@@ -22,4 +22,26 @@ public class Funcioness {
     public static boolean esPar(double numero) {
         return numero % 2 == 0;
     }
+
+    public static long hacerCuadrado(long entero) {
+        return entero * entero;
+    }
+
+    public static int hacerFactorial(int num) {
+        int sum = 1;
+        int cont = num;
+         while (num > 0) {
+            sum = sum * num;
+            num = num - 1;
+        }
+
+        return sum;
+    }
+     public static int sumarNumeros(int... numeros) {
+        int suma = 0;
+        for (int num : numeros) {
+            suma += num;
+        }
+        return suma;
+    }
 }
