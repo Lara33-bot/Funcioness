@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Cual es tu nombre?");
         String nombre = input.nextLine();
         Funcioness.saludopersonalizado(nombre);
-        System.out.println("Cual desea probar? 1. Area de tu rectangulo 2. Agregar mayusc 3. Par o impar 4. Entero al cuadrado");
+        System.out.println("Cual desea probar? 1. Area de tu rectangulo 2. Agregar mayusc 3. Par o impar 4. Entero al cuadrado 5. Factorial  6. Sum");
         boolean confirmacion = true;
         while (confirmacion) {
             int decision = input.nextInt();
